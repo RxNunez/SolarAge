@@ -4,7 +4,7 @@
   "description": "\"\"",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "karma start karma.conf.js"
   },
   "author": "",
   "license": "ISC",
@@ -26,7 +26,10 @@
     "karma-chrome-launcher": "^2.2.0",
     "karma-cli": "^1.0.1",
     "karma-jasmine": "^1.1.0",
-    "vinyl-source-stream": "^1.1.0"
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "karma-jquery": "^0.2.2",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.9.0"
   },
   "dependencies": {},
   "repository": {
