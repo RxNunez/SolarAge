@@ -1,10 +1,12 @@
 {
   "name": "solarage",
   "version": "1.0.0",
-  "description": "",
+  "description": "planetary age calculator",
   "main": "gulpfile.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "browserify": "^14.4.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
