@@ -1,9 +1,9 @@
 {
-  "name": "calc",
-  "description": "\"\"",
+  "name": "solarage",
+  "description": "planetary age calculator",
   "main": "index.js",
   "license": "ISC",
-  "homepage": "https://github.com/RxNunez/Calc",
+  "homepage": "https://github.com/RxNunez/SolarAge",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -15,5 +15,8 @@
     "jquery": "^3.2.1",
     "bootstrap": "^3.3.7",
     "moment": "^2.18.1"
-  }
+  },
+  "authors": [
+    "RxNunez <Nunez.ryan@gmail.com>"
+  ]
 }
