@@ -6,30 +6,29 @@ function Calculator(skinName) {
     const secPerYear = 1000 * 60 * 60 * 24 * 365;
     let sec = ((age * secPerYear));
     return sec;
-  }
+  };
   Calculator.prototype.getEarth = function(bday){
     let today = new Date();
     let born = new Date(bday);
     let output = today.diff(born, 'seconds');
     return output;
-  }
+  };
   Calculator.prototype.getMercury = function(age){
-    let mercury = Math.floor((age*.24));
+    let mercury = Math.floor((age*0.24));
     return mercury;
-  }
+  };
   Calculator.prototype.getVenus = function(age){
-    let venus = Math.floor((age*.62));
-    return venus
-  }
+    let venus = Math.floor((age*0.62));
+    return venus;
+  };
   Calculator.prototype.getMars = function(age){
     let mars = Math.floor((age*1.88));
-    return mars
-  }
+    return mars;
+  };
   Calculator.prototype.getJupiter = function(age){
     let jupiter = Math.floor((age*11.86));
-    return jupiter
-  }
-}
+    return jupiter;
+  };
   Calculator.prototype.timeLeft = function(world, userAge){
     const expectancy = 71.5; //world average age 2016
     let lifeLeft ="";
@@ -49,7 +48,6 @@ function Calculator(skinName) {
       leftLife = `You should be dead on ${world}!`;
     }
     return lifeLeft;
-    }
 
-  }
+};
 exports.calculatorModule = Calculator;

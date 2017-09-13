@@ -1,4 +1,4 @@
-var Calculator = require('./../js/pingpong.js').calculatorModule;
+var Calculator = require('./../js/solar.js').calculatorModule;
 
 describe ('Calculator', function(){
   var calculator;

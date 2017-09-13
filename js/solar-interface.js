@@ -1,5 +1,5 @@
 
-var Calculator = require('./../js/solar.js').calculatorModule
+var Calculator = require('./../js/solar.js').calculatorModule;
 
 $(document).ready(function() {
   $('#solar-form').submit(function(event) {
